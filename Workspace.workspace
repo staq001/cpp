@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Workspace" Database="" Version="10000">
+  <Project Name="BasicIO" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="Linker-Errors" Path="Project2/Project2.project" Active="No"/>
+  <Project Name="Linker-Errors" Path="Project2/Project2.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="Variables-and-Constants" Path="Section2/Section2.project" Active="No"/>
+  <Project Name="Arrays-and-Vectors" Path="Arrays-and-Vectors/Arrays-and-Vectors.project" Active="No"/>
+  <Project Name="Statements_and-Operators" Path="Statements_and-Operators/Statements_and-Operators.project" Active="No"/>
+  <Project Name="If-else-loops" Path="If-else-loops/If-else-loops.project" Active="No"/>
+  <Project Name="Classes" Path="Classes/Classes.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="BasicIO" ConfigName="Debug"/>
+      <Project Name="Linker-Errors" ConfigName="Debug"/>
+      <Project Name="Linker-Errors" ConfigName="Debug"/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="Variables-and-Constants" ConfigName="Debug"/>
+      <Project Name="Arrays-and-Vectors" ConfigName="Debug"/>
+      <Project Name="Statements_and-Operators" ConfigName="Debug"/>
+      <Project Name="If-else-loops" ConfigName="Debug"/>
+      <Project Name="Classes" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="BasicIO" ConfigName="Release"/>
+      <Project Name="Linker-Errors" ConfigName="Release"/>
+      <Project Name="Linker-Errors" ConfigName="Release"/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="Variables-and-Constants" ConfigName="Release"/>
+      <Project Name="Arrays-and-Vectors" ConfigName="Release"/>
+      <Project Name="Statements_and-Operators" ConfigName="Release"/>
+      <Project Name="If-else-loops" ConfigName="Release"/>
+      <Project Name="Classes" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

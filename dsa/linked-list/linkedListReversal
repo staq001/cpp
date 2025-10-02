@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cstring>
+#include <stack> // stack from standard template library (stl)
+
+using namespace std;
+
+struct Node {
+  int data;
+  Node *next;
+};
+
+Node *head = new Node;
+
+void Reverse(){
+  stack<Node*> S;
+
+  if(head==NULL)
+    return;
+  // loop for push
+  Node *temp = head;
+  while(temp != NULL){
+    S.push(temp);
+    temp = temp->next;
+  }
+
+  // loop for pop
+  temp = S.top();
+  head = temp;
+  S.pop(); 
+  while(!S.empty()){
+    temp->next = S.top();
+    S.pop();
+    temp = temp->next;
+  }
+  temp->next = NULL;
+}
+
+int main(){
+
+  // gotta write the function for insert.
+  return 0;
+}
+

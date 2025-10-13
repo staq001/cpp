@@ -23,8 +23,8 @@ class Deep{
 };
 
 Deep::Deep(int d){
-  data = new int;
-  *data = d;
+  data = new int(d);
+  // *data = d;
 }
 
 // Deep::Deep(const Deep &source){

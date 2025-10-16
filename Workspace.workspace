@@ -7,8 +7,7 @@
   <Project Name="Variables-and-Constants" Path="Section2/Section2.project" Active="No"/>
   <Project Name="Arrays-and-Vectors" Path="Arrays-and-Vectors/Arrays-and-Vectors.project" Active="No"/>
   <Project Name="Statements_and-Operators" Path="Statements_and-Operators/Statements_and-Operators.project" Active="No"/>
-  <Project Name="If-else-loops" Path="If-else-loops/If-else-loops.project" Active="No"/>
-  <Project Name="Classes" Path="Classes/Classes.project" Active="Yes"/>
+  <Project Name="If-else-loops" Path="If-else-loops/If-else-loops.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

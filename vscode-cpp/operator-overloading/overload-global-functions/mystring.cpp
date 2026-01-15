@@ -157,7 +157,7 @@ Mystring operator+(const Mystring &lhs, const Mystring &rhs) {
   std::strcpy(buff, lhs.str);
 
   // concatenate both elements.
-  std::strcat(buff, rhs.str);
+  std::strcat(buff, rhs.str); 
 
   Mystring temp{buff};
   delete[] buff;

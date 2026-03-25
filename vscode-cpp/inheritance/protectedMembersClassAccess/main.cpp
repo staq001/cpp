@@ -5,7 +5,7 @@ using namespace std;
 class Base {
 
   public:
-    int a{0};
+    int a {0};
     void display() { cout << a << " " << b << c << endl; };
 
   protected:
@@ -15,7 +15,7 @@ class Base {
     int c{0};
 };
 
-class Derived: public Base{
+class Derived: public Base {
   // note - friends of derived have access to only what derived have access to
 
   // a will be public

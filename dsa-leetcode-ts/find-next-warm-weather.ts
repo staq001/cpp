@@ -34,6 +34,16 @@ function findNextWarmWeather(arr: number[]) {
 }
 
 // better
+
+// [1,4, 5,6,8]
+// s= [0,0,0,0,0]
+
+// t[4]
+// top =0;
+// ans =[0]
+
+// s= [0,0,0,0,0]
+
 function dailyTemperaturesTwo(temperatures: number[]): number[] {
   const t = temperatures;
   const answer = new Array(t.length).fill(0);
@@ -43,11 +53,20 @@ function dailyTemperaturesTwo(temperatures: number[]): number[] {
   if (t.length <= 1) return answer;
 
   for (let i = 0; i < t.length; i++) {
-    while (t[stack[stack.length - 1]] < t[i]) {
+    console.log("i", i);
+    console.log("t-stack", t[stack[stack.length - 1]]);
+    while (stack.length > 0 && t[stack[stack.length - 1]] < t[i]) {
       const top = stack.pop() as number;
+      console.log("top", top);
+
       answer[top] = i - top;
     }
     stack.push(i);
+    console.log("stack", stack);
   }
   return answer;
 }
+
+const dt = dailyTemperaturesTwo([2, 3, 6, 1, 5, 8]);
+// ans = [1,1,2,1,1,0]
+console.log(dt);

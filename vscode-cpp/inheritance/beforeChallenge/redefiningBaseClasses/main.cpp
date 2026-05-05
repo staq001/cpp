@@ -20,7 +20,7 @@ int main()
   // cout << a1 << endl;  // account balance: 500;
 
   cout << "\n=====Saving Account class =================" << endl;
-  Savings_Account s1{1000.0, 5.0};
+  Savings_Account s1{"James",1000.0, 5.0};
   cout << s1 << endl;
 
   s1.deposit(500.0);
